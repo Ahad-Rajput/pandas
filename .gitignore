@@ -1,0 +1,23 @@
+# Data files
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json
+*.pickle
+*.pkl
+*.h5
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Python/Pandas environments & logs
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.log/
+
+# IDE/Editor settings
+.vscode/
+.idea/
