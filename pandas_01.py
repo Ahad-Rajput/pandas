@@ -26,3 +26,6 @@ U can also specifies the no. rows like this, 'df.head(3)' => This'll print first
 """ 
 
 # print(df.describe())   # Provide basic statistics about our data
+
+max_std = df[df['marks'] == df['marks'].max()]  # Filter the data of student with maximum marks
+print(max_std)
